@@ -11,11 +11,25 @@ h1 {
   margin-top: 35px;
   border: none;
 }
+.latest-book,
+.copyright {
+  font-family: "Open Sans", sans-serif;
+}
 .latest-book h3 {
+  font-weight: bold;
   font-size: 20px;
   margin-bottom: 12px;
 }
 .latest-book p {
   font-size: 16px;
   color: #55606e;
+}
+.footer {
+  background-color: #161a1c;
+  color: #e4e6f0;
+  font-weight: bold;
+  font-size: 11px;
+  border: 1px solid #3e4a52;
+  margin-top: 50px;
+  padding: 18px 50px;
 }
