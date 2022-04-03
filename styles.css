@@ -1,0 +1,21 @@
+h1 {
+  font-size: 32px;
+  font-family: "Playfair Display", serif;
+}
+.card {
+  font-family: "Playfair Display", serif;
+  line-height: 32px;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 auto;
+  margin-top: 35px;
+  border: none;
+}
+.latest-book h3 {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+.latest-book p {
+  font-size: 16px;
+  color: #55606e;
+}
