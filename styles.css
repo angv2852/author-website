@@ -1,3 +1,20 @@
+.image-container {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.caption {
+  font-family: "Dancing Script", cursive;
+  font-size: 180px;
+  font-weight: 700;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+}
 .card-title {
   font-weight: bold;
   font-size: 32px;
@@ -33,4 +50,9 @@
   border: 1px solid #3e4a52;
   margin-top: 50px;
   padding: 18px 50px;
+}
+@media (min-width: 768px) {
+  .caption {
+    font-size: 75px;
+  }
 }
