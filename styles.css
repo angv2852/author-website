@@ -6,8 +6,11 @@
 }
 .caption {
   font-family: "Dancing Script", cursive;
-  font-size: 180px;
+
   font-weight: 700;
+}
+.caption h1 {
+  font-size: 146px;
 }
 .center {
   position: absolute;
@@ -50,6 +53,14 @@
   border: 1px solid #3e4a52;
   margin-top: 50px;
   padding: 18px 50px;
+}
+.nav {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+.nav-link {
+  color: #131313 !important;
 }
 @media (min-width: 768px) {
   .caption {
