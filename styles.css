@@ -62,8 +62,9 @@
 .nav-link {
   color: #131313 !important;
 }
-@media (max-width: 768px) {
+
+@media (min-width: 360px) {
   .caption h1 {
-    font-size: 28px;
+    font-size: 25px;
   }
 }
