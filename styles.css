@@ -46,10 +46,6 @@
   font-size: 16px;
   color: #55606e;
 }
-.about-container {
-  padding: 0 50px;
-  margin: 0 305px;
-}
 .about-container h3 {
   margin: 30px 8px;
   color: #11202a;
@@ -91,9 +87,17 @@
   .caption h1 {
     font-size: 100px;
   }
+  .about-container {
+    padding: 0 15px;
+    margin: 0 55px;
+  }
 }
 @media (min-width: 1399.98px) {
   .caption h1 {
     font-size: 146px;
+  }
+  .about-container {
+    padding: 0 50px;
+    margin: 0 305px;
   }
 }
