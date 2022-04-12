@@ -82,6 +82,19 @@
     padding: 0 5px;
     margin: 0 45px;
   }
+  .nav-bar {
+    display: none;
+  }
+  .image-container {
+    padding: 60px 0;
+  }
+  .card-body {
+    margin-top: -70px;
+  }
+  p.card-text {
+    font-size: 15px;
+    line-height: 30px;
+  }
 }
 @media (min-width: 992px) {
   .caption h1 {
