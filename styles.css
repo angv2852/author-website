@@ -6,11 +6,12 @@
 }
 .caption {
   font-family: "Dancing Script", cursive;
-
   font-weight: 700;
 }
 .caption h1 {
   font-size: 146px;
+  display: block;
+  margin: 0 auto;
 }
 .center {
   position: absolute;
@@ -45,6 +46,21 @@
   font-size: 16px;
   color: #55606e;
 }
+.about-container {
+  padding: 0 50px;
+  margin: 0 305px;
+}
+.about-container h3 {
+  margin: 30px 8px;
+  color: #11202a;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+}
+.about-container p {
+  font-family: "Open Sans", sans-serif;
+  color: #55606e;
+  font-size: 16px;
+}
 .footer {
   background-color: #161a1c;
   color: #e4e6f0;
@@ -64,6 +80,20 @@
 }
 @media (max-width: 768px) {
   .caption h1 {
-    font-size: 28px;
+    font-size: 42px;
+  }
+  .about-container {
+    padding: 0 5px;
+    margin: 0 45px;
+  }
+}
+@media (min-width: 992px) {
+  .caption h1 {
+    font-size: 100px;
+  }
+}
+@media (min-width: 1399.98px) {
+  .caption h1 {
+    font-size: 146px;
   }
 }
