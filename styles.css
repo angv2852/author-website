@@ -1,3 +1,12 @@
+h3 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+p {
+  font-size: 16px;
+  color: #55606e;
+}
 .image-container {
   display: inline-block;
   position: relative;
@@ -19,12 +28,16 @@
   left: 50%;
   transform: translate(-50%, -20%);
 }
+.card {
+  display: block;
+  margin: 0 auto;
+}
 .card-title {
   font-weight: bold;
   font-size: 32px;
   font-family: "Playfair Display", serif;
 }
-.card {
+.card-text {
   font-family: "Playfair Display", serif;
   line-height: 32px;
   font-size: 18px;
@@ -36,26 +49,6 @@
 .latest-book,
 .copyright {
   font-family: "Open Sans", sans-serif;
-}
-.latest-book h3 {
-  font-weight: bold;
-  font-size: 20px;
-  margin-bottom: 12px;
-}
-.latest-book p {
-  font-size: 16px;
-  color: #55606e;
-}
-.about-container h3 {
-  margin: 30px 8px;
-  color: #11202a;
-  font-family: "Open Sans", sans-serif;
-  font-size: 20px;
-}
-.about-container p {
-  font-family: "Open Sans", sans-serif;
-  color: #55606e;
-  font-size: 16px;
 }
 .footer {
   background-color: #161a1c;
@@ -78,10 +71,6 @@
   .caption h1 {
     font-size: 42px;
   }
-  .about-container {
-    padding: 0 5px;
-    margin: 0 45px;
-  }
   .nav-bar {
     display: none;
   }
@@ -89,28 +78,24 @@
     padding: 60px 0;
   }
   .card-body {
-    margin-top: -70px;
+    margin-top: -30px;
   }
   p.card-text {
     font-size: 15px;
     line-height: 30px;
+  }
+  h3.card-text {
+    margin-top: 0;
+    font-size: 16px;
   }
 }
 @media (min-width: 992px) {
   .caption h1 {
     font-size: 100px;
   }
-  .about-container {
-    padding: 0 15px;
-    margin: 0 55px;
-  }
 }
 @media (min-width: 1399.98px) {
   .caption h1 {
     font-size: 146px;
-  }
-  .about-container {
-    padding: 0 50px;
-    margin: 0 305px;
   }
 }
