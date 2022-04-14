@@ -8,6 +8,9 @@ ul {
   font-size: 16px;
   color: #55606e;
 }
+.container {
+  margin-top: 50px;
+}
 .image-container {
   display: inline-block;
   position: relative;
@@ -77,6 +80,9 @@ ul {
   transition: all 200ms ease-in-out;
 }
 @media (max-width: 768px) {
+  .container {
+    margin-top: 0;
+  }
   .caption h1 {
     font-size: 42px;
   }
@@ -84,7 +90,7 @@ ul {
     display: none;
   }
   .image-container {
-    padding: 60px 0;
+    padding: 75px 0 60px;
   }
   .card-body {
     margin-top: -30px;
@@ -99,6 +105,7 @@ ul {
   }
   .contact-info {
     margin: 10px 30px;
+    padding: 0 0 60px 0;
   }
 }
 @media (min-width: 992px) {
