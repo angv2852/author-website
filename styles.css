@@ -124,6 +124,8 @@ ul {
   .book-titles {
     font-size: 14px;
   }
+  .book-images {
+  }
 }
 @media (min-width: 992px) {
   .caption h1 {
