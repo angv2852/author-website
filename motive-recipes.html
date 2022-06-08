@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Open+Sans:wght@300&family=Playfair+Display:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+      <div class="nav-bar">
+    <ul class="nav justify-content-center mt-5 mb-3">
+      <li class="nav-item">
+        <a class="nav-link" href="/about.html">About Me</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a
+          class="nav-link dropdown-toggle"
+          data-bs-toggle="dropdown"
+          href="/books.html"
+          role="button"
+          aria-expanded="false"
+          >My Books</a
+        >
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="/books.html">All Books</a></li>
+          <li><a class="dropdown-item" href="#">Searching for Irene</a></li>
+                  <li><a class="dropdown-item" href="#">Crooked House</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">A Death in the Family</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Motive for Murder</a></li>
+                  <li><a class="dropdown-item" href="#">Light on Fire Island</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">For Sale by Owner</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Gaze into Heaven</a></li>
+                  <li><a class="dropdown-item" href="#">Heroes of Faith</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Visits from Beyond the Veil</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Latter-day Saint Heroes and Heroines</a></li>
+                  <li><a class="dropdown-item" href="#">And There Were Angels Among Them</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">The Magnificent World of Spirits</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">How Will Christmas Find Us?</a></li>
+                  <li><a class="dropdown-item" href="#">Brigham's Boys</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">By the Ministering of Angels</a>
+                  </li>
+        </ul>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/contact.html">Contact Info</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/speaking.html">Speaking Engagements</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/recipes.html">Recipes</a>
+      </li>
+    </ul>
+    </div>
+    <nav class="navbar navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">Home</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+            <button
+              type="button"
+              class="btn-close text-reset"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/about.html">About Me</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="/books.html"
+                  id="offcanvasNavbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  My Books
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="offcanvasNavbarDropdown"
+                >
+                  <li><a class="dropdown-item" href="#">Searching for Irene</a></li>
+                  <li><a class="dropdown-item" href="#">Crooked House</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">A Death in the Family</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Motive for Murder</a></li>
+                  <li><a class="dropdown-item" href="#">Light on Fire Island</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">For Sale by Owner</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Gaze into Heaven</a></li>
+                  <li><a class="dropdown-item" href="#">Heroes of Faith</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Visits from Beyond the Veil</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Latter-day Saint Heroes and Heroines</a></li>
+                  <li><a class="dropdown-item" href="#">And There Were Angels Among Them</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">The Magnificent World of Spirits</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">How Will Christmas Find Us?</a></li>
+                  <li><a class="dropdown-item" href="#">Brigham's Boys</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">By the Ministering of Angels</a>
+                  </li>
+                </ul>
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/contact.html">Contact Info</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/speaking.html">Speaking Engagements</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/recipes.html">Recipes</a>
+              </li>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="image-container d-flex">
+      <img src="images/books.jpg" alt="Shelf of books" class="img-fluid" />
+      <div class="caption center container-fluid">
+        <h1>Marlene Bateman</h1>
+      </div>
+    </div>
+    <div class="container">
+       <h2>RECIPES FOR MOTIVE FOR MURDER</h2>
+<h4>In Order of Appearance</h4>
+<div class="recipe-name">Éclairs (Makes 10-12)</div>
+
+<div class="recipe-subtitle">Pastry</div>
+<div class="recipe-ingredient">1 cup water</div>
+<div class="recipe-ingredient">1/2 cup butter</div>
+<div class="recipe-ingredient">1 cup flour</div>
+<div class="recipe-ingredient">4 eggs</div>
+<div class="recipe-subtitle">Directions</div>
+<ul>
+  <li>Heat water and butter in pan until boiling.Remove from heat.</li>
+  <li>Add flour all at once and stir vigorously about 1 minute or until mixture forms a ball.</li>
+  <li>Remove from heat and stir in eggs, one at a time. Beat vigorously until smooth.</li>
+  <li>Drop dough in round or oblong mounds on greased cookie sheet and bake at 400 degrees for 35–40 minutes.</li>
+  <li>Cool. Cut off tops and pull out bits of dough from inside. Fill with pudding using a spoon or pastry bag.</li>
+  <li>Frost with chocolate icing.</li>
+</ul>
+<div class="recipe-subtitle">Pudding</div>
+<div class="recipe-ingredient">1 large box, (5.1 ounce) cook and serve or instant vanilla pudding. Make according to directions. Cool.</div>
+<div class="recipe-subtitle">Chocolate Frosting</div>
+<div class="recipe-ingredient">6 Tablespoons unsweetened cocoa powder (or 1 square melted semisweet chocolate)</div>
+<div class="recipe-ingredient">3 Tablespoons butter</div>
+<div class="recipe-ingredient">2 3/4 cups confectioners’ sugar</div>
+<div class="recipe-ingredient">1 teaspoon vanilla extract</div>
+<div class="recipe-ingredient">4 Tablespoons milk</div>
+<div class="recipe-subtitle">Directions</div>
+<ul>
+<li>Melt chocolate and butter then stir in vanilla and sugar.</li>
+<li>Add milk, 1 Tbsp. at a time, and beat until desired consistency is reached.
+  </ul>
+<div class="recipe-name">Kelly’s Twice-Baked Potatoes (Serves 4)</div>
+<div class="recipe-author">Kelly Sullivan</div>
+<div class="recipe-ingredient">4 large baking potatoes</div>
+<div class="recipe-ingredient">1/4 cup milk</div>
+<div class="recipe-ingredient">1 package, (3 ounce), reduced-fat cream cheese, room temperature</div>
+<div class="recipe-ingredient">1/2 teaspoon salt</div>
+<div class="recipe-ingredient">1 Tablespoon butter</div>
+<div class="recipe-ingredient">1/2 cup cubed ham</div>
+<div class="recipe-ingredient">1/2 cup kernel corn</div>
+<div class="recipe-ingredient">1 cup shredded Cheddar cheese</div>
+<div class="recipe-ingredient">Optional: 1 Tablespoon chives</div>
+<div class="recipe-subtitle">Directions</div>
+<ul>
+  <li>Bake potatoes until done (either in oven at 400 degrees for 45 minutes or in microwave).</li> 
+    <li>Let potatoes cool slightly, then cut open lengthwise and scoop out insides.</li>
+<li>Mash pulp with milk, and then add cream cheese, salt, and butter.</li>
+<li>Stir in ham and corn then stuff potato shells with mixture.</li>
+<li>Place potatoes on a baking sheet and sprinkle with grated cheddar cheese.</li>
+<li>Bake at 350 degrees for 10–15 minutes.</li>
+</ul>
+<div class="recipe-name">Jen’s Fabulous French Bread (Makes 2 loaves)</div>
+<div class="recipe-author">Jen Martin</div>
+<div class="recipe-ingredient">*(Use a Kitchen Aid or some other mixer that can handle bread dough)</div>
+<div class="recipe-ingredient">1/2 cup warm water</div>
+<div class="recipe-ingredient">2 packages yeast</div>
+<div class="recipe-ingredient">2 cups very warm water</div>
+<div class="recipe-ingredient">2 Tablespoons sugar (divided)</div>
+<div class="recipe-ingredient">1 Tablespoon salt</div>
+<div class="recipe-ingredient">6 cups flour (divided) [If desired, you can use 3 cups whole wheat and 3 cups white flour)</div>
+<div class="recipe-ingredient">1/4 cup oil</div>
+<div class="recipe-ingredient">1 Tablespoon cornmeal</div>
+<div class="recipe-ingredient">1 egg white, slightly beaten with 1 Tablespoon of water</div>
+<div class="recipe-ingredient">Optional: Sesame seeds</div>
+<div class="recipe-subtitle">Directions</div>
+<ul>
+<li>Dissolve yeast and 1 Tablespoon sugar in 1/2 cup warm water</li>
+<li>Combine 2 cups water, salt, rest of sugar, oil, and 3 cups of flour. Mix well in mixer.</li>
+<li>Mix in yeast mixture then add rest of flour. After mixing well, let dough rise 15 minutes.</li>
+<li>Turn on mixer for approximately 5–10 seconds to punch down dough then let rest 15 min.</li>
+<li>Repeat the previous step two more times.</li>
+<li>Divide dough in half. Roll each portion into a 14″ x 6″ rectangle. Roll up, jelly-roll style, starting with the long side. Pinch edges and ends to seal. Place seam side down on a large, greased baking sheet that has been sprinkled with cornmeal.</li>
+<li>Brush with egg white mixture, then cover and let rise in a warm place until doubled.</li>
+<li>With a very sharp knife, make 3 or 4 diagonal cuts about 1/4 inch deep across top of each loaf. Brush lightly again with egg white mixture. Add sesame seeds if desired.</li>
+<li>Bake in a preheated, 375 degree oven for 18–22 minutes.</li>
+</ul>
+<div class="recipe-name">Clam Chowder (Serves 8)</div>
+<div class="recipe-ingredient">2 cups potatoes, peeled and diced</div>
+<div class="recipe-ingredient">1/2 cup onion, diced</div>
+<div class="recipe-ingredient">1/2 cup celery, sliced fine</div>
+<div class="recipe-ingredient">2 cups milk</div>
+<div class="recipe-ingredient">1 can evaporated milk</div>
+<div class="recipe-ingredient">1 teaspoon salt</div>
+<div class="recipe-ingredient">1 teaspoon sugar</div>
+<div class="recipe-ingredient">4 Tablespoons butter</div>
+<div class="recipe-ingredient">1/8 teaspoon pepper</div>
+<div class="recipe-ingredient">1/2 teaspoon garlic powder</div>
+<div class="recipe-ingredient">2 large cans (12 ounces) minced clams, do not drain</div>
+<div class="recipe-ingredient">1/3 cup and 2 Tablespoons flour (for thickening.)</div>
+<div class="recipe-ingredient">1/2 cup milk (for thickening)</div>
+<div class="recipe-subtitle">Directions</div>
+<ul>
+  <li>Boil potatoes, onion, and celery in small amount of water until tender. Drain.</li>
+<li>Add milk, evaporated milk, salt, sugar, butter, pepper, and clams.</li>
+<li>Put 1/3 cup flour in a bowl and slowly add 1/2 cup milk, beating until smooth. Stir into soup and heat until soup is thickened, stirring constantly.</li>
+</ul>
+<div class="recipe-name">Pumpkin Chocolate-Chip Cookies (Makes 4 dozen)</div>
+<div class="recipe-ingredient">1 cup canned pumpkin</div>
+<div class="recipe-ingredient">1 cup brown sugar</div>
+<div class="recipe-ingredient">1/2 cup granulated sugar</div>
+<div class="recipe-ingredient">1/2 cup margarine or butter</div>
+<div class="recipe-ingredient">1 egg</div>
+<div class="recipe-ingredient">1 teaspoon vanilla extract</div>
+<div class="recipe-ingredient">2 1/2 cups all-purpose flour</div>
+<div class="recipe-ingredient">1 teaspoon baking powder</div>
+<div class="recipe-ingredient">1/2 teaspoon baking soda</div>
+<div class="recipe-ingredient">1/2 teaspoon salt</div>
+<div class="recipe-ingredient">1 teaspoon ground cinnamon</div>
+<div class="recipe-ingredient">1 teaspoon ground nutmeg</div>
+<div class="recipe-ingredient">1 cup semisweet chocolate chips</div>
+<div class="recipe-ingredient">Optional: 1/2 cup chopped walnuts</div>
+<div class="recipe-subtitle">Directions</div>
+<ul>
+  <li>Cream margarine or butter, and sugars.</li>
+<li>Mix in pumpkin, egg, and vanilla. Blend well.</li>
+<li>Stir in flour, baking powder, soda, salt, cinnamon, and nutmeg and mix well.</li>
+<li>Stir in chocolate chips. Add nuts if desired.</li>
+<li>Use teaspoon to drop cookies onto greased baking sheet. Bake at 350 degrees for 10–15 minutes.</li>
+</ul>
+<div class="recipe-name">TaLonnie’s Crock-Pot Chicken (Serves 4–6)</div>
+<div class="recipe-author">TaLonnie Sullivan</div>
+<div class="recipe-ingredient">4 skinless, boneless chicken breasts (Can be cut into pieces or left whole)</div>
+<div class="recipe-ingredient">1 cup water</div>
+<div class="recipe-ingredient">1/4 cup butter</div>
+<div class="recipe-ingredient">1 package zesty Italian seasoning mix</div>
+<div class="recipe-ingredient">1 can cream chicken soup</div>
+<div class="recipe-ingredient">1 package (8 ounce) cream cheese</div>
+<ul>
+  <li>Put butter, water, and chicken in crock-pot.</li>
+  <li>Sprinkle with seasoning mix.</li>
+  <li>Cook on low for 6–7 hours or on high for 3–4 hours.</li>
+<li>Mix cream cheese and cream of chicken soup and add to crock-pot during the last half hour.</li>
+<li>Serve over rice or pasta.</li>
+</ul>
+<div class="recipe-name">Honey Wheat Pancakes (Serves 4)</div>
+<div class="recipe-ingredient">1/2 cup all-purpose flour</div>
+<div class="recipe-ingredient">2/3 cup whole wheat flour</div>
+<div class="recipe-ingredient">1 teaspoon baking soda</div>
+<div class="recipe-ingredient">1/2 teaspoon salt</div>
+<div class="recipe-ingredient">1 cup buttermilk (If you don’t have buttermilk, add 1 Tablespoon vinegar or lemon juice to 1 cup milk and let stand 10 minutes)</div>
+<div class="recipe-ingredient">1 large egg</div>
+<div class="recipe-ingredient">1 Tablespoon oil</div>
+<div class="recipe-ingredient">2 Tablespoons honey</div>
+<div class="recipe-subtitle">Directions</div>
+<ul>
+<li>Mix flours, soda, and salt.</li>
+<li>In separate bowl, beat egg, then whisk in oil, honey, and buttermilk.</li>
+<li>Add liquid mixture to dry ingredients, stirring just until moistened (the batter will be slightly lumpy).</li>
+<li>Pour 1/4 cup of the batter onto a greased griddle and cook until the bubbles on top just begin to break. Turn and cook briefly on the other side.</li>
+</ul>
+<div class="recipe-name">Pollo Guisado</div>
+<div class="recipe-author">Marlene Bateman</div>
+<div class="recipe-ingredient">1 whole chicken</div>
+<div class="recipe-ingredient">2 teaspoons Adobo seasoning or plain salt (divided)</div>
+<div class="recipe-ingredient">1 1/2 cups chicken stock</div>
+<div class="recipe-ingredient">2 medium potatoes cut into chunks</div>
+<div class="recipe-ingredient">1 bell pepper, diced</div>
+<div class="recipe-ingredient">3 plum tomatoes, chopped</div>
+<div class="recipe-ingredient">2/3 cup red onion, diced</div>
+<div class="recipe-ingredient">1/4 cup olives, sliced</div>
+<div class="recipe-ingredient">3 tablespoons olive oil</div>
+<div class="recipe-ingredient">2 tablespoons lime juice</div>
+<div class="recipe-ingredient">1/8 teaspoon oregano</div>
+<div class="recipe-ingredient">1 teaspoon minced garlic</div>
+<div class="recipe-ingredient">1 teaspoon ground cumin</div>
+<div class="recipe-ingredient">1/2 teaspoon black pepper</div>
+<div class="recipe-ingredient">2 stalks fresh cilantro (with leaves)</div>
+<div class="recipe-ingredient">1 8 oz. can tomato sauce</div>
+<div class="recipe-ingredient">2 bay leaves</div>
+<div class="recipe-subtitle">Directions</div>
+<ul>
+  <li>Put chicken in pan with enough water to cover half the chicken.</li>
+  <li>Add 1 tsp. Adobo seasoning or 1 tsp. salt.</li>
+  <li>Cook chicken for forty minutes.</li>
+  <li>Cool, and pull chicken off the bones and into pieces.</li>
+  <li>In large pan, add chicken broth, potatoes, bell pepper, tomatoes, onion, olives, olive oil, lime juice, oregano, garlic, cumin, black pepper, cilantro, tomato sauce, 1 teaspoon Adobo seasoning or salt, and bay leaves.</li>
+  <li>Simmer for twenty minutes.</li>
+  <li>Add chicken and simmer for 1 hour.</li>
+  <li>Serve in a small bowl or over rice.</li>
+</ul>
+<div class="recipe-subtitle">Adobo Seasoning</div>
+<div class="recipe-ingredient">2 Tablespoons salt</div>
+<div class="recipe-ingredient">1 Tablespoon paprika</div>
+<div class="recipe-ingredient">2 teaspoons black pepper</div>
+<div class="recipe-ingredient">1 1/2 teaspoons onion powder</div>
+<div class="recipe-ingredient">1 1/2 teaspoons dried oregano</div>
+<div class="recipe-ingredient">1 1/2 teaspoons ground cumin</div>
+<div class="recipe-ingredient">1 teaspoon garlic powder</div>
+<div class="recipe-ingredient">1 teaspoon chili powder</div>
+<div class="recipe-subtitle">Directions</div>
+<ul>
+<li>Mix together all ingredients and put in a shaker jar (Use a salt shaker).</li>
+</ul>
+Orange Rolls (Makes 22–28)
+2 packages active dry yeast (or 5 teaspoons)
+1/2 cup warm water
+1 1/4 cups granulated sugar (divided)
+1 1/4 cups milk
+1/2 cup shortening
+2 eggs, beaten
+5 cups bread flour
+1 teaspoon salt
+1 stick, (4 oz.) butter
+3 Tablespoons orange zest (grated orange peel; avoid pith)
+Directions
+Dissolve yeast in warm water then add 1/2 cup sugar and stir until dissolved.
+Scald milk. Add shortening and stir until shortening has melted.
+Cool milk to lukewarm, stir in eggs then add yeast mixture.
+In separate bowl, combine flour and salt, and then add to liquid mixture and mix. Can use bread mixer or turn onto floured surface and knead until smooth.
+Cover and allow to rise, about 1 hour.
+Punch down dough and place in a greased bowl. Cover and refrigerate for about 1 hour.
+To prepare filling, combine butter, 3/4 cup sugar, and grated orange peel. Mix until it resembles crumbs.
+Roll chilled dough on a lightly floured surface and shape into a rectangle about ¼ inch thick. Spread filling over the dough and roll up, jelly-roll style into a log. Cut slices about ¾ inch thick and place in a greased muffin tin or on a baking sheet. Cover and place in warm area until dough has doubled.
+Bake at 375 degrees for 10–15 minutes or until lightly brown.
+Frost with orange cream cheese frosting.
+Orange Cream Cheese Frosting
+3 ounces cream cheese, softened
+2 Tablespoons butter, softened
+1 teaspoon orange zest
+2 Tablespoons orange juice
+2 cups confectioners’ sugar
+Optional: 3/4 cup chopped walnuts
+Directions
+Beat cream cheese, butter, orange peel, and juice until creamy, then beat in sugar.
+Spread on rolls and sprinkle with nuts if desired.
+Egg Salad Sandwiches (Serves 4–6)
+8 eggs
+1/2 cup mayonnaise
+1/3 cup celery, diced
+1 Tablespoon prepared yellow mustard
+1/4 cup chopped onion
+1/2 teaspoon lemon juice
+1/4 teaspoon salt
+Optional: 1/4 cup diced dill pickle
+Directions
+1. Hard boil eggs. Cool, peel, chop, and set aside.
+2. In a bowl, mix mayonnaise, celery, mustard, onion, lemon juice, and salt. Stir in chopped egg gently.
+    </div>
+    <div class="footer">
+      <span class="copyright">© Copyright 2020 - Marlene Bateman</span>
+    </div>
+  </body>
+</html>
